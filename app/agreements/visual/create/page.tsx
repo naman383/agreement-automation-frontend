@@ -6,6 +6,9 @@ import Link from 'next/link';
 import Image from 'next/image';
 import apiClient from '@/lib/api';
 
+// Force dynamic rendering - don't try to statically generate this page
+export const dynamic = 'force-dynamic';
+
 interface Field {
   field_name: string;
   field_label: string;
