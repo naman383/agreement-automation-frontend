@@ -4,7 +4,7 @@
  */
 import axios from 'axios';
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || 'http://localhost:8000/api/v1';
+const API_BASE_URL = 'https://web-production-2dab7.up.railway.app/api/v1';
 
 // Store CSRF token in memory
 let csrfToken: string | null = null;
